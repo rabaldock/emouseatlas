@@ -1,0 +1,301 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration:none;
+}
+
+a img {
+  border: none;
+}
+
+th {
+	background-color: #CCCCCC;
+	font-size: 16px;
+}
+
+.content {
+  width: 100%;
+  min-width: 1000px;
+  border: 1px solid black;
+}
+
+.centretext {
+   text-align:center;
+}
+
+#header {
+  width: 100%;
+  min-width: 1000px;
+  background-image: url(../images/grad_ema.png);
+  background-repeat:repeat-x;
+  height: 110px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+}
+
+.header_text_img {
+  position:absolute;
+  left: 120px;
+}
+
+.hack {
+ border: none;
+}
+
+.form {
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75em;
+  font-weight: bold;
+  color: #FFFFFF;
+  position:absolute;
+  right: 10px;
+  top: 20px;
+}
+
+.feedback {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75em;
+  font-weight: bold;
+  color: #FFFFFF;
+  position: absolute;
+  right: 20px;
+  top: 50px;
+}
+
+.compatibility {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75em;
+  font-weight: bold;
+  color: #FFFFFF;
+  position: absolute;
+  right: 20px;
+  top: 80px;
+}
+
+a.header_link:link {
+  color: #FFFFFF;
+}
+a.header_link:visited {
+  color: #FFFFFF;
+}
+a.header_link:hover {
+  color: #FF9C4A;
+}
+a.header_link:active {
+  color: #FFFFFF;
+}
+
+img.logo {
+  height: 110px;
+  width: 110px;
+}
+
+.emage_menu {
+  height: 30px;
+  min-width: 700px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 0.9em;
+  position:absolute;
+  left: 120px;
+  top: 90px;
+  z-index: 10000;
+}
+
+#end_header {
+  clear: both;
+}
+
+#footer{
+   position: relative;
+   top: 0px;
+   padding: 0px;
+   margin: 0px;
+   color: #000;
+   font-weight: normal;
+   font-size: 0.8em;
+   font-family: Arial, Helvetica, sans-serif;
+   min-height: 30px;
+}
+
+#footer a img {
+	border:medium none;
+}
+
+#footerLeftDiv {
+	float:left;
+	margin:0;
+	min-height:25px;
+	padding:0;
+	width: 185px;
+}
+
+#footerCentreDiv {
+	min-height:25px;
+	padding:0;
+	width:700px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#footerRightDiv {
+	float:right;
+	margin:0;
+	min-height:25px;
+	padding:0;
+	width:115px;
+}
+
+#footerCopyrightImgDiv {
+	float:left;
+	margin:0;
+	min-height:25px;
+	padding:0;
+	width:25px;
+}
+
+#footerCopyrightImgDiv img {
+	border:medium none;
+	margin:0;
+	padding:0;
+}
+
+#footerCopyrightTextDiv {
+	float:left;
+	height:1.5em;
+	margin:6px 0 0;
+	padding:0;
+	width:49em;
+}
+
+#footer hr {
+	background-color:gray;
+	color:gray;
+	height:5px;
+	width:100%;
+}
+
+#footer a {
+	text-decoration:none;
+}
+
+.emage_menu ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2px;
+    padding: 0;
+}
+.emage_menu ul li {
+    float: left;
+    margin: 0;
+    position: relative;
+}
+.emage_menu ul li:hover ul {
+    border: 1px solid #330000;
+    border-top: 0px;
+}
+.emage_menu ul li a, .emage_menu ul li a:visited {
+    color: white;
+    display: block;
+    height: 30px;
+    line-height: 29px;
+    margin-right: 20px;
+    padding: 0 5px;
+    text-decoration: none;
+}
+.emage_menu ul li ul {
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+}
+.emage_menu ul li:hover a {
+    background: none repeat scroll 0 0 #3e0900;
+    border: 0 none;
+    text-decoration: none;
+}
+.emage_menu ul li:hover ul {
+    background: none repeat scroll 0 0 #3399cc;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    visibility: visible;
+}
+.emage_menu ul li:hover ul li {
+    background: none repeat scroll 0 0 #3399cc;
+}
+.emage_menu ul li:hover ul li:hover {
+    background: none repeat scroll 0 0 #3e0900;
+    width: 100%;
+}
+.emage_menu ul li:hover ul li a {
+    background: none repeat scroll 0 0 #3399cc;
+    display: block;
+    height: auto;
+    min-width: 100px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 3px 10px;
+    text-decoration: none;
+}
+.emage_menu ul li:hover ul li ul {
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+}
+.emage_menu ul li:hover ul li a:hover {
+    background: none repeat scroll 0 0 #3e0900;
+    color: #ffffff;
+    padding: 3px 10px;
+}
+.emage_menu ul li:hover ul li:hover ul {
+    border: 1px solid black;
+    color: white;
+    height: auto;
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: visible;
+}
+.emage_menu ul li:hover ul li:hover ul li a {
+    color: white;
+    display: block;
+    height: auto;
+    line-height: 1.5em;
+    padding: 3px 10px;
+    text-decoration: none;
+}
+.emage_menu ul li:hover ul li:hover ul li:hover a {
+    color: white;
+    text-decoration: none;
+}
+
+.TableLinkList {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 20px;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+.fieldset {
+   border-width: 2pt;
+   font-size: 10pt;
+}
+.ehistologytable {
+	font-size: 14px;
+}
