@@ -66,8 +66,15 @@ th {
     border-style: solid;
 }
 
-.links_table.tr {
+.td_left {
+    width: 250;
+    text-align: right;
+    border-width: 0px;
+    border-style: solid;
+}
+.td_right {
     width: auto;
+    text-align: left;
     border-width: 0px;
     border-style: solid;
 }
