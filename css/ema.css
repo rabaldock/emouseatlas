@@ -69,12 +69,14 @@ th {
 .td_left {
     width: 250;
     text-align: right;
+    vertical-align: top;
     border-width: 0px;
     border-style: solid;
 }
 .td_right {
     width: auto;
     text-align: left;
+    vertical-align: top;
     border-width: 0px;
     border-style: solid;
 }
