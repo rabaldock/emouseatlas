@@ -105,6 +105,11 @@ table {
 	text-align: center;
 }
 
+#pubs_table {
+    width: 90%;
+    text-align: left;
+}
+
 .image_gallery_images {
 	max-width: 220px;
 	max-height: 255px;
